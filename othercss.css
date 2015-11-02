@@ -1,0 +1,14 @@
+#bigpic {
+	max-height: 250px;
+	width:auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1024px;
+  }
+}
