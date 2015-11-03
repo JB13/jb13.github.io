@@ -39,4 +39,5 @@
 	text-align: justify;
     text-justify: inter-word;
     font-family: 'Open Sans', sans-serif;
+    max-width: 500px;
 }
