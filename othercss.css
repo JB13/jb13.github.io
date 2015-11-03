@@ -1,9 +1,14 @@
+* {
+	border: black 1px;
+}
+
 #bigpic {
 	max-height: 250px;
 	width:auto;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 100%;
+	border: 5px solid #FFFFFF;
 }
 
 /* Customize container */
@@ -11,4 +16,19 @@
   .container {
     max-width: 1024px;
   }
+}
+
+.jumbopic {
+	background-image: url("./assets/jumbobg.jpg");
+	background-size: cover;
+}
+
+.companylogo {
+	max-width: 150px;
+	height:auto;
+}
+
+.row-centered {
+    display: flex;
+    align-items: center; 
 }
