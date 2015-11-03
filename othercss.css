@@ -26,11 +26,6 @@
 	height:auto;
 }
 
-.row-centered {
-    display: flex;
-    align-items: center; 
-}
-
 .jobBlurb {
 	background-color: #004055;
 	margin: 10px 2px 10px 2px;
@@ -40,4 +35,5 @@
     text-justify: inter-word;
     font-family: 'Open Sans', sans-serif;
     max-width: 500px;
+    float:none;
 }
