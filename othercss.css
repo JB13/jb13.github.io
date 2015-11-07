@@ -1,5 +1,28 @@
+body {
+	background-color: #F5F5F5;/*Or #F8F8FF;F5F5F5 */
+}
 
-
+#topNav {
+	background-color: #1A237E;
+}
+#mainContainer {
+    padding-top: 70px;
+  }
+#navText {
+	color:white;
+}
+.navbar-brand {
+	color:white;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #cfd8dc;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
 #bigpic {
 	max-height: 250px;
 	width:auto;
@@ -9,16 +32,30 @@
 	border: 5px solid #FFFFFF;
 }
 
+#bigIntroText {
+	color:#FF6D00;
+}
+#introText {
+	color:#ecf0f1;
+}
+
 /* Customize container */
 @media (min-width: 768px) {
-  .container {
+  #mainContainer {
     max-width: 1024px;
   }
 }
 
 .jumbopic {
-	background-image: url("./assets/jumbobg.jpg");
-	background-size: cover;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(21, 101, 192, 0.7), 
+      rgba(21, 101, 192, 0.7)
+    ),
+    /* bottom, image */
+    url("./assets/jumbobg.jpg");
+    background-size: cover;
 }
 
 .companylogo {
@@ -27,9 +64,9 @@
 }
 
 .jobBlurb {
-	background-color: #004055;
-	margin: 10px 2px 10px 2px;
-	padding: 10px 5px 10px 5px;
+	background-color: #1565C0;
+	margin: 10px 0px 10px 0px;
+	padding: 20px 20px 20px 20px;
 	color:white;
 	text-align: justify;
     text-justify: inter-word;
