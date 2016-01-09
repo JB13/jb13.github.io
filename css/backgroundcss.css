@@ -1,0 +1,28 @@
+body {
+  background-color: #F5F5F5;/*Or #F8F8FF;F5F5F5 */
+}
+
+#topNav {
+  background-color: #1A237E;
+}
+#mainContainer {
+    padding-top: 70px;
+  }
+#navText {
+  color:white;
+}
+.navbar-default .navbar-brand {
+  color: #F5F5F5;
+  font-size: 250%;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #FFFFFF;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #F5F5F5;
+  font-size: 120%;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #FFFFFF;
+}
+#mobile-nav-button {background:red;}
